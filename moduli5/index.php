@@ -8,7 +8,7 @@
 
     echo $sports[2]."<hr>";
 
-    echo end(array: &$sports)."<hr>";
+    echo end(array: $sports)."<hr>";
 
     echo count($sports)."<hr>";
 
