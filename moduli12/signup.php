@@ -7,20 +7,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
   <body>
+    <?php include('header.php') ?>
     <div class="container mt-5">
       <div class="row justify-content-center">
         <div class="col-md-8">
           <form class="needs-validation" novalidate>
             <div class="row g-3">
               <div class="col-md-4">
-                <label for="firstName" class="form-label">First name</label>
+                <label for="firstName" class="form-label">Name</label>
                 <input type="text" class="form-control" id="firstName" placeholder="First name" value="Mark" required>
                 <div class="valid-feedback">
                   Looks good!
                 </div>
               </div>
               <div class="col-md-4">
-                <label for="lastName" class="form-label">Last name</label>
+                <label for="lastName" class="form-label">Surname</label>
                 <input type="text" class="form-control" id="lastName" placeholder="Last name" value="Otto" required>
                 <div class="valid-feedback">
                   Looks good!
@@ -39,24 +40,24 @@
             </div>
             <div class="row g-3 mt-3">
               <div class="col-md-6">
-                <label for="city" class="form-label">City</label>
-                <input type="text" class="form-control" id="city" placeholder="City" required>
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="Email" required>
                 <div class="invalid-feedback">
-                  Please provide a valid city.
+                  Looks good!
                 </div>
               </div>
               <div class="col-md-3">
-                <label for="state" class="form-label">State</label>
-                <input type="text" class="form-control" id="state" placeholder="State" required>
+                <label for="password" class="form-label">Password</label>
+                <input type="text" class="form-control" id="password" placeholder="Password" required>
                 <div class="invalid-feedback">
-                  Please provide a valid state.
+                  Looks good!
                 </div>
               </div>
               <div class="col-md-3">
-                <label for="zip" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="zip" placeholder="Zip" required>
+                <label for="confirmpassword" class="form-label">ConfirmPassword</label>
+                <input type="text" class="form-control" id="confirmpassword" placeholder="ConfirmPassword" required>
                 <div class="invalid-feedback">
-                  Please provide a valid zip.
+                  Looks good!
                 </div>
               </div>
             </div>
@@ -74,6 +75,7 @@
         </div>
       </div>
     </div>
+    <?php include('footer.php') ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script>
       (function() {
