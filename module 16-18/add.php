@@ -58,7 +58,7 @@
 
         echo("Table created");
         
-    }catch(Exeption $e){
+    }catch(Exception $e){
 
 
         echo("Table not created");

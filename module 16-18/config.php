@@ -12,7 +12,7 @@ try{
 
 
 }
-catch(Exeption $e){
+catch(Exception $e){
     echo "Something went wrong";
 }
 
